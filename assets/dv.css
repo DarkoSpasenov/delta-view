@@ -235,9 +235,12 @@ dialog.lb button{position:fixed;top:max(16px,env(safe-area-inset-top,0px));right
  .ctrl .count{margin-right:6px}
  .card,.card:nth-child(3n+1){width:84vw}
  .card .img,.card:nth-child(3n+1) .img{aspect-ratio:4/3}
- .svc .th{aspect-ratio:4/5}
- .svc h3{font-size:17px}
- .svc p{font-size:14.5px}
+ .svc{gap:24px 12px}
+ .svc li{gap:10px}
+ .svc .th{aspect-ratio:4/3}
+ .svc .n{font-size:11px}
+ .svc h3{font-size:14px;letter-spacing:.1em}
+ .svc p{display:none}
  .facts ul{grid-template-columns:1fr 1fr}
  .facts li:nth-child(3){border-left:0}
  .facts li:nth-child(n+3){border-top:1px solid var(--line)}
