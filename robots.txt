@@ -1,0 +1,5 @@
+# Delta View - https://delta-view.ch
+User-agent: *
+Allow: /
+
+Sitemap: https://delta-view.ch/sitemap.xml
